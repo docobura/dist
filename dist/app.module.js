@@ -31,7 +31,7 @@ exports.AppModule = AppModule = __decorate([
             typeorm_1.TypeOrmModule.forFeature([user_entity_1.User]),
             jwt_1.JwtModule.register({
                 secret: 'secret',
-                signOptions: { expiresIn: '0d' }
+                signOptions: { expiresIn: '1d' }
             })
         ],
         controllers: [app_controller_1.AppController],
